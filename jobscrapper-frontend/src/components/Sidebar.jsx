@@ -1,5 +1,4 @@
 import { useMemo, useState } from "react";
-import { FaHeart } from "react-icons/fa6";
 
 
 const PLATFORM_OPTIONS = ["LinkedIn", "Indeed", "Naukri", "Foundit", "Glassdoor"];
@@ -31,9 +30,9 @@ export default function Sidebar({ filters, setFilters, onSearch, onClear, loadin
     <aside className="sticky top-0 h-screen w-full max-w-xs border-r border-slate-200/80 bg-white/80 p-6 backdrop-blur dark:border-slate-800 dark:bg-slate-950/80">
       <div className="mb-8">
         <p className="flex items-center gap-2 text-[1rem] font-semibold uppercase tracking-wider text-brand-600">
-           <span className="inline-block text-red-500 animate-bounce"> <FaHeart size={18}/> </span>
+           <span className="inline-block text-red-500 animate-bounce">♥</span>
           Aakash Web Developer
-          <span className="inline-block text-red-500 animate-bounce"> <FaHeart size={18}/> </span>
+          <span className="inline-block text-red-500 animate-bounce">♥</span>
         </p>
         <h1 className="mt-2 text-2xl font-bold text-slate-900 dark:text-white">Smart Search</h1>
       </div>

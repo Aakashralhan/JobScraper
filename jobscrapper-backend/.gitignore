@@ -1,0 +1,30 @@
+# dependencies
+node_modules/
+
+# runtime output / generated files
+downloads/
+*.xlsx
+
+# python cache / virtual env
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# local env
+.env
+.env.*
+!.env.example
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# system/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

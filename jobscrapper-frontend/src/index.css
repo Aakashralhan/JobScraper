@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-bg {
+  background:
+    radial-gradient(circle at 20% 15%, rgba(22, 149, 111, 0.14), transparent 35%),
+    radial-gradient(circle at 80% 85%, rgba(59, 130, 246, 0.1), transparent 30%);
+}
